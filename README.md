@@ -38,7 +38,7 @@ mkdir DIRNAME
 
 Part II: WOLF Installation 
 
-1. Change the directory to where you want WOLF
+1. Change to the directory where you want WOLF
 ```
 cd DIRNAME
 ```
@@ -54,9 +54,9 @@ Part III: Run WOLF
 ```
 cd WOLF_CL
 ```
-2. To run WOLF some example config file, such as `wolf.yaml`, has been provided for testing. You may edit the following line:
+2. To run WOLF, some example config file, such as `wolf.yaml`, has been provided for testing. You may edit the following line:
    email: xxx@xx.xx.xx 
-   in culster_config section of wolf_test.yaml to change xxx@xx.xx.xx to your email so that you can get notifications of running status when you run WOLF using:
+   in the culster_config section of `wolf.yaml` to change xxx@xx.xx.xx to your email so that you can get notifications of running status when you run WOLF using:
    ```
    python Wolf.py -i wolf.yaml.
    ```
@@ -77,7 +77,7 @@ The final results file generated from WOLF is stored in a file called `Results.x
     2) Windows
       You may use different kinds of SFTP clients to access login1.ittc.ku.edu. WinSCP is free SFTP client for windows, the details of WinSCP can be found in https://winscp.net/eng/index.php.      
 2. Results.xlsx
-   The content of Results.xlsx consists of metrics of different algorightms you specify in the WOLF configuration file.
+   The content of `Results.xlsx` consists of metrics of different algorightms you specify in the WOLF configuration file.
 
 
 Part V: Make Predictions
