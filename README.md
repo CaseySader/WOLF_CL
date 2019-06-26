@@ -18,7 +18,7 @@ Part I: WOLF Environment Setup
 
 1. Login to the ittc server
 ```
-login login1.ittc.ku.edu
+ssh login1.ittc.ku.edu
 ```
 2. Add the following commands to your ~/.profile or run on your own each time
 ```
