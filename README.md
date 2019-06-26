@@ -16,19 +16,19 @@ V   Make Predictions
 
 Part I: WOLF Environment Setup
 
-1. Add the following command to your ~/.profile or run on your own each time
+1. Login to the ittc server
+```
+login login1.ittc.ku.edu
+```
+2. Add the following commands to your ~/.profile or run on your own each time
 ```
 module load scikit-learn/0.18.0-Python-2.7.12
 module load TensorFlow/1.11-cp27-gpu
 ```
-2. Install eli5 on your profile (only need to do once)
+3. Install eli5 on your profile (only need to do once)
 ```
 module load Python/2.7.12
 pip install --user eli5
-```
-3. Login to the ittc server
-```
-login login1.ittc.ku.edu
 ```
 4. Create a new directory for WOLF with desired name
 ```
