@@ -42,7 +42,7 @@ Part II: WOLF Installation
 ```
 cd DIRNAME
 ```
-3. get the latest version of WOLF:
+2. get the latest version of WOLF:
 ```
 git clone https://github.com/CaseySader/WOLF_CL.git
 ```
