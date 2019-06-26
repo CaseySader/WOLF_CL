@@ -1,0 +1,54 @@
+\documentclass[12pt, letterpaper]{report}
+\usepackage[left=1.5in, right=1.5in, top=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{indentfirst}
+\usepackage{eso-pic}
+\usepackage{listings}
+\usepackage{soul}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{ {images/}}
+
+\usepackage[citestyle=authoryear,sorting=nyt, backend=bibtex, maxbibnames=99]{biblatex}
+\addbibresource{references.bib}
+\renewcommand*{\nameyeardelim}{\addcomma\space}
+
+\begin{document}
+
+\input{title_page}
+
+\input{abstract}
+
+\chapter*{Introduction}
+\input{introduction}
+
+\chapter*{Objective}
+\input{objective}
+
+\chapter*{Motivation}
+\input{motivation}
+
+\chapter*{Background}
+\input{background}
+
+\chapter*{Methodology}
+\input{methodology}
+
+\chapter*{Presentation of Work}
+\input{presentation_of_work}
+
+\chapter*{Results}
+\input{results}
+
+\chapter*{Future Work}
+\input{future_work}
+
+\chapter*{Conclusion}
+\input{conclusion}
+
+\printbibliography
+
+\chapter*{Appendix}
+\input{appendix}
+
+\end{document}

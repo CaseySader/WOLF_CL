@@ -1,0 +1,15 @@
+The following are two examples of configuration files for WOLF. The first is the new transaction for making predictions. It shows the required values of the prediction executable script {\tt MakePredictions.py}, the data file to predict with, the desired name of the prediction output ({\tt -o}), and the file path to the pickled model ({\tt -m}). Then there are two optional parameters for the label to predict ({\tt -l}) and whether to compute metrics ({\tt -s}, currently only accuracy) on the predictions. The label name must be given if it is included in the dataset and the metrics can only be calculated if a label name is provided. The second configuration file shows examples of some transactions. These are {\tt datasplit}, {\tt feature\_extraction}, {\tt feature\_selection}, {\tt algorithm}, and {\tt metric\_collection}. Many examples of algorithms and some possible hyper-parameter combinations are also shown.
+
+\begin{figure}[h]
+	\centering
+	\lstinputlisting[language=sh, basicstyle=\scriptsize]{configurations/wolf_predict.yaml}
+	\caption{WOLF configuration file for predictions}
+	\label{fig:wolf predict}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\lstinputlisting[language=sh, basicstyle=\scriptsize]{configurations/wolf_presentation.yaml}
+	\caption{WOLF configuration file from presentation}
+	\label{fig:wolf presentation}
+\end{figure}

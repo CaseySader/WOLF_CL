@@ -1,0 +1,48 @@
+cluster_config:
+    email: "xxx@xx.xx.xx"
+
+datasplit:
+    executable: "Splittingdata.py"
+    no_of_files: 1
+    data_file: "diabetes.arff"
+    output_folder: "output"
+    parameters:
+    - ["single",-k, 5]
+    - ["single",-r, 10]
+    - ["single",-l,"class"]
+
+
+algorithm:
+    algo1:
+       executable: "RandomForest.py"
+       parameters:
+            - ["collection","list",-d,[5,10]]
+            - ["single",-t,50]
+    algo2:
+       executable: "LinearSupportVectorClassification.py"
+       parameters:
+          - ["collection","list",-t,[0.0001,0.001,0.01,0.1]]
+    algo3:
+       executable: "DeepLearning.py"
+       parameters:
+         - ["collection","list",-r ,[.01,.001]]
+         - ["collection","list",-b,[50,100,200]]
+         - ["collection","list",-l,["[100,100,100]","[100,100,100,100]"]]
+    algo4:
+        executable: "LogisticRegression.py"
+    algo5:
+        executable: "BernoulliNaiveBayes.py"
+    algo6:
+        executable: "GaussianNaiveBayes.py" 
+    algo7:
+        executable: "LinearDiscriminantAnalysis.py"
+    algo8:
+        executable: "AdaBoostClassifier.py"
+    algo9:
+        executable: "lib/DecisionTree.py"
+
+    no_of_files: 1
+
+metric_calculation:
+    no_of_files: 1
+    executable: "MetricCollection.py"

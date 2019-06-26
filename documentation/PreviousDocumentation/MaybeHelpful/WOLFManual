@@ -1,0 +1,40 @@
+WOLF MANUL:
+Developed by Pranav Bahl, Xiaoli Li, Jun Huan
+Oct 21, 2016
+
+This Manual contains three parts:
+I  WOLF Environment Setup
+II   Gitlab Setup
+III Run WOLF
+IV  Work on WOLF
+
+Part I: WOLF Environment Setup
+1. Add the following command to your .bash_profile
+   module load scikit-learn/0.17.0_gnu
+   module load pyyaml/3.11-py27
+2. login login1.ittc.ku.edu
+3. mkdir <your local directory>
+
+Part II: Gitlab Setup
+1. Add your Git username and your email
+   git config --global user.name "YOUR_USERNAME"
+   git config --global user.email "YOUR_EMAIL_ADDRESS"
+2. Init <your local directory>
+   git init
+3. Add WOLF repository
+   git remote add WOLFRepo https://gitlab.ittc.ku.edu/jhuan/WOLF.git
+
+Part III: Run WOLF
+1. Setup WOLF environment following guidlines in Part II
+2. git clone https://gitlab.ittc.ku.edu/jhuan/WOLF.git
+3. cd WOLF
+4. python Wolf.py -i <config_file>(wolf_test.yaml)
+
+Part IV: Work on WOLF
+1. Setup WOLF environment following guidelines in Part I
+2. Setup Giblab following guidelines in Part II
+3. git pull WOLFRepo master
+4. made changes to WOLF
+5. (Optional) git add <new files>
+6. git commit -m "description about your changes"
+7. git push WOLFRepo master

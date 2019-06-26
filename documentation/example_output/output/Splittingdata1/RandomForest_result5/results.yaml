@@ -1,0 +1,16 @@
+algo_params: {parameter.d: '7', parameter.t: '100'}
+algorithm: RandomForest
+featureimportance: [output/Splittingdata1/RandomForest_result5/FeatureImportance/RandomForestFI1.csv,
+  output/Splittingdata1/RandomForest_result5/FeatureImportance/RandomForestFI2.csv,
+  output/Splittingdata1/RandomForest_result5/FeatureImportance/RandomForestFI3.csv,
+  output/Splittingdata1/RandomForest_result5/FeatureImportance/RandomForestFI4.csv,
+  output/Splittingdata1/RandomForest_result5/FeatureImportance/RandomForestFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/RandomForest_result5/models/RandomForestModel1.pkl,
+  output/Splittingdata1/RandomForest_result5/models/RandomForestModel2.pkl, output/Splittingdata1/RandomForest_result5/models/RandomForestModel3.pkl,
+  output/Splittingdata1/RandomForest_result5/models/RandomForestModel4.pkl, output/Splittingdata1/RandomForest_result5/models/RandomForestModel5.pkl]
+results: [output/Splittingdata1/RandomForest_result5/result1.csv, output/Splittingdata1/RandomForest_result5/result2.csv,
+  output/Splittingdata1/RandomForest_result5/result3.csv, output/Splittingdata1/RandomForest_result5/result4.csv,
+  output/Splittingdata1/RandomForest_result5/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

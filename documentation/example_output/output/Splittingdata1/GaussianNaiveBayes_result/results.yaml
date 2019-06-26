@@ -1,0 +1,18 @@
+algo_params: {parameter: default}
+algorithm: GaussianNaiveBayes
+featureimportance: [output/Splittingdata1/GaussianNaiveBayes_result/FeatureImportance/GaussianNaiveBayesFI1.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/FeatureImportance/GaussianNaiveBayesFI2.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/FeatureImportance/GaussianNaiveBayesFI3.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/FeatureImportance/GaussianNaiveBayesFI4.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/FeatureImportance/GaussianNaiveBayesFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/GaussianNaiveBayes_result/models/GaussianNaiveBayesModel1.pkl,
+  output/Splittingdata1/GaussianNaiveBayes_result/models/GaussianNaiveBayesModel2.pkl,
+  output/Splittingdata1/GaussianNaiveBayes_result/models/GaussianNaiveBayesModel3.pkl,
+  output/Splittingdata1/GaussianNaiveBayes_result/models/GaussianNaiveBayesModel4.pkl,
+  output/Splittingdata1/GaussianNaiveBayes_result/models/GaussianNaiveBayesModel5.pkl]
+results: [output/Splittingdata1/GaussianNaiveBayes_result/result1.csv, output/Splittingdata1/GaussianNaiveBayes_result/result2.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/result3.csv, output/Splittingdata1/GaussianNaiveBayes_result/result4.csv,
+  output/Splittingdata1/GaussianNaiveBayes_result/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

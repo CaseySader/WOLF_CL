@@ -1,0 +1,19 @@
+WOLF is driven by the desire to automate any task that is repeatable and provide a framework where this automation can be fully controlled through one single interface. WOLF is an effective tool when a user first starts working on it, but some flaws will be noticed right away. While WOLF allows the selection of a dataset, model, and hyper-parameters, the information returned to the user is not expansive and does not allow for much extra work. The features that this project adds are
+\begin{itemize}
+	\item The framework for a website
+	\item A neural network model using TensorFlow
+	\item Saving trained models
+	\item The ability to make predictions using the model
+	\item Feature importance values
+	\item More datasets
+\end{itemize}
+
+A website will make WOLF more accessible and provide a more user-friendly interface for users than a configuration file. This project takes steps to put a website in place.
+
+The reason this project adds a neural network using TensorFlow is because it is becoming an industry standard to have knowledge of it. It is important to have knowledge on it for industry, but also having the option for users to have access to its capabilities is needed today. It is most commonly used for creating Neural Networks so this project improves on the existing NN by updating it.
+
+WOLF provides the results on how each model performed and which hyper-parameters it found to be the best for that model, but it never actually provides that model to the user. This really limits the novice user who may not know how to write the code to train the model while also alienating an experienced user who wants to use WOLF to automate tasks. This project provides the ability to save the models as there is little use in determining the best model if you do not plan on using it in the future. Furthermore, since there is now a model saved, this project also adds the ability to use the model to make predictions directly in the WOLF framework.
+
+Training a model to make predictions is not the only use for machine learning though. A major reason for the rise of data science is the desire to understand a dataset. Being able to have a model that makes good predictions is not going to move research and understanding forward if there is not a way to interpret what the model is doing. This is why the project adds recording and displaying feature importance values. Knowing the relative importance of a feature to a model can help a researcher collect better data in the future and potentially even allow them to create a model or algorithm that explains their data without the need for ``black box" machine learning anymore.
+
+To demonstrate the success in adding to the framework, this project needs to show that it can work on benchmark data. Data was collected from the UCI Machine Learning repository \parencite{UCIdata}. These are datasets that have been used many times and are known to provide good test cases for ML. The benchmark data can also be helpful to the novice user to provide datasets for practice with WOLF and machine learning in general.

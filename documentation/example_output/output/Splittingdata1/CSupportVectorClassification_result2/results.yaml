@@ -1,0 +1,18 @@
+algo_params: {parameter.k: linear}
+algorithm: CSupportVectorClassification
+featureimportance: [output/Splittingdata1/CSupportVectorClassification_result2/FeatureImportance/CSVClassificationFI1.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/FeatureImportance/CSVClassificationFI2.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/FeatureImportance/CSVClassificationFI3.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/FeatureImportance/CSVClassificationFI4.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/FeatureImportance/CSVClassificationFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/CSupportVectorClassification_result2/models/CSVClassificationModel1.pkl,
+  output/Splittingdata1/CSupportVectorClassification_result2/models/CSVClassificationModel2.pkl,
+  output/Splittingdata1/CSupportVectorClassification_result2/models/CSVClassificationModel3.pkl,
+  output/Splittingdata1/CSupportVectorClassification_result2/models/CSVClassificationModel4.pkl,
+  output/Splittingdata1/CSupportVectorClassification_result2/models/CSVClassificationModel5.pkl]
+results: [output/Splittingdata1/CSupportVectorClassification_result2/result1.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/result2.csv, output/Splittingdata1/CSupportVectorClassification_result2/result3.csv,
+  output/Splittingdata1/CSupportVectorClassification_result2/result4.csv, output/Splittingdata1/CSupportVectorClassification_result2/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

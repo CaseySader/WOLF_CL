@@ -1,0 +1,18 @@
+algo_params: {parameter.p: l2}
+algorithm: LogisticRegression
+featureimportance: [output/Splittingdata1/LogisticRegression_result2/FeatureImportance/LogisticRegressionFI1.csv,
+  output/Splittingdata1/LogisticRegression_result2/FeatureImportance/LogisticRegressionFI2.csv,
+  output/Splittingdata1/LogisticRegression_result2/FeatureImportance/LogisticRegressionFI3.csv,
+  output/Splittingdata1/LogisticRegression_result2/FeatureImportance/LogisticRegressionFI4.csv,
+  output/Splittingdata1/LogisticRegression_result2/FeatureImportance/LogisticRegressionFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/LogisticRegression_result2/models/LogisticRegressionModel1.pkl,
+  output/Splittingdata1/LogisticRegression_result2/models/LogisticRegressionModel2.pkl,
+  output/Splittingdata1/LogisticRegression_result2/models/LogisticRegressionModel3.pkl,
+  output/Splittingdata1/LogisticRegression_result2/models/LogisticRegressionModel4.pkl,
+  output/Splittingdata1/LogisticRegression_result2/models/LogisticRegressionModel5.pkl]
+results: [output/Splittingdata1/LogisticRegression_result2/result1.csv, output/Splittingdata1/LogisticRegression_result2/result2.csv,
+  output/Splittingdata1/LogisticRegression_result2/result3.csv, output/Splittingdata1/LogisticRegression_result2/result4.csv,
+  output/Splittingdata1/LogisticRegression_result2/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

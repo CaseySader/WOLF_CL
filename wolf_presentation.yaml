@@ -1,0 +1,58 @@
+cluster_config:
+    email: "xxx@xx.xx.xx"
+
+datasplit:
+    executable: "Splittingdata.py"
+    no_of_files: 1
+    data_file: "diabetes.arff"
+    output_folder: "output"
+    parameters:
+    - ["single",-k, 5]
+    - ["single",-r, 1]
+    - ["single",-l,"class"]
+
+algorithm :
+    algo1 :
+        executable : "BernoulliNaiveBayes.py"
+        parameters :
+            - ["collection","list",-a,[0,1.0]]
+    algo2 :
+        executable : "GaussianNaiveBayes.py"
+    algo3 :
+        executable : "DecisionTree.py"
+        parameters :
+            - ["collection","list",-d,[4,8]]
+            - ["collection","list",-p,['True', 'False']]
+    algo4 :
+        executable : "LogisticRegression.py"
+        parameters :
+            - ["collection","list",-p,['l1', 'l2']]
+    algo5 :
+        executable : "RandomForest.py"
+        parameters :
+            - ["collection","range",-d,[5,10,1]]
+            - ["collection","range",-t,[100,200,50]]
+    algo6 :
+        executable : "CSupportVectorClassification.py"
+        parameters :
+            - ["collection","list",-k,['rbf','linear']]
+    algo7 :
+        executable : "LinearDiscriminantAnalysis.py"
+        parameters :
+            - ["collection","list",-s,['svd', 'lsqr', 'eigen']]
+            - ["single",-v,"auto"]
+            - ["single",-n,1]
+            - ["single",-t,0.0001]
+    algo8 :
+        executable : "QuadraticDiscriminantAnalysis.py"
+    algo9:
+        executable: "TFNeuralNetwork.py"
+        parameters :
+            - ["collection","list",-h,[0.0,0.5]]
+            - ["collection","list",-l,[[10,10,10],[15,20,10]]]
+    no_of_files : 1
+
+metric_calculation :
+    no_of_files : 1
+    executable : "MetricCollection.py"
+    output_folder : "output"

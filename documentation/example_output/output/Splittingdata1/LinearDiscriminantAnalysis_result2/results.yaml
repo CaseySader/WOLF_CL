@@ -1,0 +1,18 @@
+algo_params: {parameter.n: '1', parameter.s: lsqr, parameter.t: '0.0001', parameter.v: auto}
+algorithm: LinearDiscriminantAnalysis
+featureimportance: [output/Splittingdata1/LinearDiscriminantAnalysis_result2/FeatureImportance/LinearDiscriminantAnalysisFI1.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/FeatureImportance/LinearDiscriminantAnalysisFI2.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/FeatureImportance/LinearDiscriminantAnalysisFI3.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/FeatureImportance/LinearDiscriminantAnalysisFI4.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/FeatureImportance/LinearDiscriminantAnalysisFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/LinearDiscriminantAnalysis_result2/models/LinearDiscriminantAnalysisModel1.pkl,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/models/LinearDiscriminantAnalysisModel2.pkl,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/models/LinearDiscriminantAnalysisModel3.pkl,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/models/LinearDiscriminantAnalysisModel4.pkl,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/models/LinearDiscriminantAnalysisModel5.pkl]
+results: [output/Splittingdata1/LinearDiscriminantAnalysis_result2/result1.csv, output/Splittingdata1/LinearDiscriminantAnalysis_result2/result2.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/result3.csv, output/Splittingdata1/LinearDiscriminantAnalysis_result2/result4.csv,
+  output/Splittingdata1/LinearDiscriminantAnalysis_result2/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

@@ -1,0 +1,16 @@
+algo_params: {parameter.d: '8', parameter.p: 'True'}
+algorithm: DecisionTree
+featureimportance: [output/Splittingdata1/DecisionTree_result3/FeatureImportance/DecisionTreeFI1.csv,
+  output/Splittingdata1/DecisionTree_result3/FeatureImportance/DecisionTreeFI2.csv,
+  output/Splittingdata1/DecisionTree_result3/FeatureImportance/DecisionTreeFI3.csv,
+  output/Splittingdata1/DecisionTree_result3/FeatureImportance/DecisionTreeFI4.csv,
+  output/Splittingdata1/DecisionTree_result3/FeatureImportance/DecisionTreeFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/DecisionTree_result3/models/DecisionTreeModel1.pkl,
+  output/Splittingdata1/DecisionTree_result3/models/DecisionTreeModel2.pkl, output/Splittingdata1/DecisionTree_result3/models/DecisionTreeModel3.pkl,
+  output/Splittingdata1/DecisionTree_result3/models/DecisionTreeModel4.pkl, output/Splittingdata1/DecisionTree_result3/models/DecisionTreeModel5.pkl]
+results: [output/Splittingdata1/DecisionTree_result3/result1.csv, output/Splittingdata1/DecisionTree_result3/result2.csv,
+  output/Splittingdata1/DecisionTree_result3/result3.csv, output/Splittingdata1/DecisionTree_result3/result4.csv,
+  output/Splittingdata1/DecisionTree_result3/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

@@ -1,0 +1,25 @@
+cluster_config:
+    email: "xxx@xx.xx.xx"
+
+datasplit:
+    executable: "Splittingdata.py"
+    no_of_files: 1
+    data_file: "dataset_benchmarks/MulticlassClassification/iris.arff"
+    output_folder: "output"
+    parameters:
+    - ["single",-k, 5]
+    - ["single",-r, 1]
+    - ["single",-l,"class"]
+
+
+algorithm:
+    algo1:
+        executable: "TFNeuralNetwork.py"
+        parameters :
+            - ["collection","list",-h,[0.0,0.5]]
+            - ["collection","list",-l,[[10,10,10],[15,20,10]]]
+    no_of_files: 1
+
+metric_calculation:
+    no_of_files: 1
+    executable: "MetricCollection_MultiClass.py"

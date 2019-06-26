@@ -1,0 +1,18 @@
+algo_params: {parameter: default}
+algorithm: QuadraticDiscriminantAnalysis
+featureimportance: [output/Splittingdata1/QuadraticDiscriminantAnalysis_result/FeatureImportance/QuadraticDiscriminantAnalysisFI1.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/FeatureImportance/QuadraticDiscriminantAnalysisFI2.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/FeatureImportance/QuadraticDiscriminantAnalysisFI3.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/FeatureImportance/QuadraticDiscriminantAnalysisFI4.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/FeatureImportance/QuadraticDiscriminantAnalysisFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/QuadraticDiscriminantAnalysis_result/models/QuadraticDiscriminantAnalysisModel1.pkl,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/models/QuadraticDiscriminantAnalysisModel2.pkl,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/models/QuadraticDiscriminantAnalysisModel3.pkl,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/models/QuadraticDiscriminantAnalysisModel4.pkl,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/models/QuadraticDiscriminantAnalysisModel5.pkl]
+results: [output/Splittingdata1/QuadraticDiscriminantAnalysis_result/result1.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/result2.csv, output/Splittingdata1/QuadraticDiscriminantAnalysis_result/result3.csv,
+  output/Splittingdata1/QuadraticDiscriminantAnalysis_result/result4.csv, output/Splittingdata1/QuadraticDiscriminantAnalysis_result/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

@@ -1,0 +1,243 @@
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/s/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+TFNeuralNetwork.py:30: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  return df.as_matrix(result), dummies.as_matrix().astype(np.int32)
+ not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_t/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+2019-06-26 04:05:03.395744: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1411] Found device 0 with properties: 
+name: Tesla K20m major: 3 minor: 5 memoryClockRate(GHz): 0.7055
+pciBusID: 0000:03:00.0
+totalMemory: 4.63GiB freeMemory: 4.56GiB
+2019-06-26 04:05:03.396237: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1490] Adding visible gpu devices: 0
+-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+eric/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+2019-06-26 04:05:14.500596: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-06-26 04:05:14.501003: I tensorflow/core/common_runtime/gpu/gpu_device.cc:977]      0 
+2019-06-26 04:05:14.501036: I tensorflow/core/common_runtime/gpu/gpu_device.cc:990] 0:   N 
+2019-06-26 04:05:14.501727: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1103] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 4327 MB memory) -> physical GPU (device: 0, name: Tesla K20m, pci bus id: 0000:03:00.0, compute capability: 3.5)
+ionWarn/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_t/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+TFNeuralNetwork.py:153: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
+  test_predictions['predictions'][predindex] = possible_labels[test_predictions['predictions'][predindex]]
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_t/nfs/apps/7/arch/gen/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+e-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+ing)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+ing)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/lda.py:4: DeprecationWarning: lda.LDA has been moved to discriminant_analysis.LinearDiscriminantAnalysis in 0.17 and will be removed in 0.19
+  "in 0.17 and will be removed in 0.19", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+aive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/ensemble/weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:820: RuntimeWarning: divide by zero encountered in log
+  neg_prob = np.log(1 - np.exp(self.feature_log_prob_))
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/naive_bayes.py:823: RuntimeWarning: invalid value encountered in add
+  jll += self.class_log_prior_ + neg_prob.sum(axis=1)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)
+/nfs/apps/7/arch/generic/scikit-learn/0.18.0-Python-2.7.12/lib/python2.7/site-packages/sklearn/qda.py:4: DeprecationWarning: qda.QDA has been moved to discriminant_analysis.QuadraticDiscriminantAnalysis in 0.17 and will be removed in 0.19.
+  "in 0.17 and will be removed in 0.19.", DeprecationWarning)

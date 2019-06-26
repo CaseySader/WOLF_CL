@@ -1,0 +1,10 @@
+1. Check whole job queue
+
+2. Check own running jobs
+squeue -u username
+
+3. Cancel job
+scancel jobID
+
+4. Cancel all your jobs
+scancel -u username

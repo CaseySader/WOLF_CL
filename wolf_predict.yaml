@@ -1,0 +1,12 @@
+cluster_config:
+    email: "xxx@xx.xx.xx"
+
+model_prediction :
+    executable : "MakePrediction.py"
+    no_of_files : 1
+    data_file : "diabetes.arff"
+    parameters :
+    - ["single",-o,"predictions.csv"]
+    - ["single",-m,"example_output/output/Splittingdata1/LinearDiscriminantAnalysis_result3/models/LinearDiscriminantAnalysisModel3.pkl"]
+    - ["single",-l,'class']
+    - ["single",-s,'True']

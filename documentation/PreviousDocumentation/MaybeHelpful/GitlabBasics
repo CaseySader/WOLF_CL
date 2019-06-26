@@ -1,0 +1,38 @@
+Gitlab Basics
+
+This Manual contains the following parts:
+I: Gitlab Setup
+II: Work on Gitlab code
+
+Part I: Gitlab Setup
+1. Add your Git username and your email:
+   git config --global user.name "YOUR_USERNAME"
+   git config --global user.email "YOUR_EMAIL_ADDRESS"
+2. To view the information you added:
+   git config --global --list
+2. Init <your local directory> to create a local Git repository:
+   git init
+3. Configure a remote repository for later access:
+   git remote add <repository name> <repository url>
+
+
+Part II:: Work on Gitlab code
+1. cd <your local directory>
+2. Get the latest code: 
+   git pull <repository name> master
+4. Made changes to code.
+5. View changes you have made:
+   git status
+6. Add changes to commit:
+   1) If you added new files to the code, use:
+      git add <new files>      
+   2) Then add changes to commit:
+      git commit -m "description about your changes"
+7. Send changes to the remote repository:
+   git push <repository name> master
+   Or
+   Delete all changes in your local Git repository, but leave unstaged things: 
+   git checkout .
+   Or
+   Delete all changes in your local Git repository, including untracked files:
+   git clean -f

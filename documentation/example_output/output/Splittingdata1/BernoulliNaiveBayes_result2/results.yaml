@@ -1,0 +1,18 @@
+algo_params: {parameter.a: '1.0'}
+algorithm: BernoulliNaiveBayes
+featureimportance: [output/Splittingdata1/BernoulliNaiveBayes_result2/FeatureImportance/BernoulliNaiveBayesFI1.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/FeatureImportance/BernoulliNaiveBayesFI2.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/FeatureImportance/BernoulliNaiveBayesFI3.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/FeatureImportance/BernoulliNaiveBayesFI4.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/FeatureImportance/BernoulliNaiveBayesFI5.csv]
+inputFile: diabetes_2495.arff
+label: class
+models: [output/Splittingdata1/BernoulliNaiveBayes_result2/models/BernoulliNaiveBayesModel1.pkl,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/models/BernoulliNaiveBayesModel2.pkl,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/models/BernoulliNaiveBayesModel3.pkl,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/models/BernoulliNaiveBayesModel4.pkl,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/models/BernoulliNaiveBayesModel5.pkl]
+results: [output/Splittingdata1/BernoulliNaiveBayes_result2/result1.csv, output/Splittingdata1/BernoulliNaiveBayes_result2/result2.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/result3.csv, output/Splittingdata1/BernoulliNaiveBayes_result2/result4.csv,
+  output/Splittingdata1/BernoulliNaiveBayes_result2/result5.csv]
+split_params: {parameter.k: '5', parameter.l: class, parameter.r: '1'}

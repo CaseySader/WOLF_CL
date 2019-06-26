@@ -1,0 +1,2 @@
+module load scikit-learn/0.18.0-Python-2.7.12
+module load TensorFlow/1.11-cp27-gpu
