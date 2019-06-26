@@ -90,3 +90,6 @@ Part V: Make Predictions
    python Wolf.py -i wolf_predict.yaml.
    ```
 4. The output will be placed in the `predictions` folder
+
+Website:
+http://pcc.ittc.ku.edu/wolf/
