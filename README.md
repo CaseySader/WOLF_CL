@@ -54,7 +54,7 @@ Part III: Run WOLF
 ```
 cd WOLF_CL
 ```
-2. To run WOLF, some example config file, such as `wolf.yaml`, has been provided for testing. You may edit the following line:
+2. To run WOLF, some example config files, such as `wolf.yaml`, have been provided for testing. You can edit the following line:
    email: xxx@xx.xx.xx 
    in the culster_config section of `wolf.yaml` to change xxx@xx.xx.xx to your email so that you can get notifications of running status when you run WOLF using:
    ```
